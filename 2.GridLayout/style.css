@@ -5,10 +5,9 @@ body {
 }
 
 .grid-layout {
-    /*Hacer uso de GridLayout*/
     display: grid;
-    /*Numero de columnas a mostrar (auto por cada columna)*/
     grid-template-columns: 50% 20% auto;
+    grid-template-rows: 100px auto 120px auto;
 
     width: 80%;
     margin: 0 auto;
