@@ -7,9 +7,10 @@ body {
 .grid-layout {
     height: 650px;
     display: grid;
-    grid-template-columns: 80% auto;
-    /*1era fila con 20%, 2da con 10%, era fila con 60% de alto y la 4ta automatica*/
-    grid-template-rows: 20% 10% 60% auto;
+    grid-template-areas:'cabecera cabecera'
+                        'menu menu'
+                        'contenido lateral'
+                        'footer footer';
     background-color: lightgreen;
     border: 1px solid black;
 }
@@ -22,19 +23,26 @@ body {
 }
 
 .c1 {
-    grid-column: 1 / span 2;
+    grid-area: cabecera;
     background: lightblue;
 }
 
 .c2 {
-    grid-column: 1 / span 2;
+    grid-area: menu;
     background: lightyellow;
 }
 
 .c3 {
+    grid-area: contenido;
     background: lightsalmon;
 }
 
+.c4 {
+    grid-area: lateral;
+    background: rgb(104, 77, 66);
+}
+
 .c5 {
-    grid-column: 1 / span 2;
+    grid-area: footer;
+    background: lightpink;
 }
