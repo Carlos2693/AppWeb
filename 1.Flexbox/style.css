@@ -28,18 +28,21 @@ body {
     margin: 5px;
 }
 
-/*Dentro de un contenedor flex container podemos usar 'order'*/
+/*Con el uso de flex-grow distribuimos a lo ancho por un porcentaje*/
 .c1 {
     background: lightblue;
     order: 2;
+    flex-grow: 5;
 }
 
 .c2 {
     background: lightcoral;
     order: 2;
+    flex-grow: 2;
 }
 
 .c3 {
     background: lightgreen;
     order: 1;
+    flex-grow: 1;
 }
