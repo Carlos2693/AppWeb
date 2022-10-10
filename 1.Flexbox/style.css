@@ -8,6 +8,14 @@ body {
     border: 1px solid black;
     display: flex;
     padding: 20px;
+    /*direccion de abajo a arriba desde abajo*/
+    flex-direction: column-reverse;
+    /*direccion de arriba a abajo desde arriba*/
+    flex-direction: column;
+    /*direccion de derecha a izquierda desde la derecha*/
+    flex-direction: row-reverse;
+    /*direccion de izquierda a derecha desde la izquierda*/
+    flex-direction: row;
 }
 
 .caja {
