@@ -9,14 +9,15 @@ body {
     display: flex;
     padding: 20px;
     flex-flow: row wrap;
-    justify-content: space-between;
-    
-    /*Alineado los elementos al inicio del contenedor*/
-    align-items: flex-start;
-    /*Alineado los elementos del contenedor al final del contenedor*/
-    align-items: flex-end;
-    /*Alineado los elementos en el centro del contenedor*/
-    align-items: center;
+    justify-content: flex-start;
+    /*Alineado de los elementos en el contenedor al final*/
+    align-content: flex-end;
+    /*Alineado de los elementos en el contenedor en el centro*/
+    align-content: center;
+    /*Alineado de los elementos con el mismo espacio entre ellos tanto inicio y final*/
+    align-content: space-around;
+    /*Alineado de los elementos con el mismo espacio entre ellos*/
+    align-content: space-between;
     height: 600px;
 }
 
