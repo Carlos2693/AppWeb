@@ -9,15 +9,15 @@ body {
     display: flex;
     padding: 20px;
     flex-flow: row wrap;
-
-    /*Mismo espacio entre los elementos, tanto derecha como izquierda*/
-    justify-content: space-around;
-    /*Centra los elementos en grupo, dejando el mismo espacio en derecha e izquierda*/
-    justify-content: center;
-    /*Acomoda los elementos desde el final hacia el inicio*/
-    justify-content: flex-end;
-    /*Mismo espacio entre los elementos*/
     justify-content: space-between;
+    
+    /*Alineado los elementos al inicio del contenedor*/
+    align-items: flex-start;
+    /*Alineado los elementos del contenedor al final del contenedor*/
+    align-items: flex-end;
+    /*Alineado los elementos en el centro del contenedor*/
+    align-items: center;
+    height: 600px;
 }
 
 .caja {
