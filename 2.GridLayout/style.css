@@ -11,6 +11,7 @@ body {
                         'menu menu'
                         'contenido lateral'
                         'footer footer';
+    grid-template-rows: 20% 10% auto 10%;
     background-color: lightgreen;
     border: 1px solid black;
 }
