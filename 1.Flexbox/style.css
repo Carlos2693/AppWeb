@@ -16,6 +16,9 @@ body {
     flex-direction: row-reverse;
     /*direccion de izquierda a derecha desde la izquierda*/
     flex-direction: row;
+
+    /*Ordena los elementos en varias lineas de ser necesario*/
+    flex-wrap: wrap;
 }
 
 .caja {
