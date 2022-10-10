@@ -7,7 +7,15 @@ body {
 .grid-layout {
     display: grid;
     grid-template-columns: 50% 20% auto;
-    grid-template-rows: 100px auto 120px auto;
+    grid-template-rows: 100px auto;
+    /*Con 'justify-content' Filas y columnas con 'auto' se adaptan al espacio usado*/
+    justify-content: flex-start;
+    /*Las columnas dejaran espacio entre ellas y los costados*/
+    justify-content: space-around;
+    /*Las columnas dejaran espacio entre ellas*/
+    justify-content: space-between;
+    /*Las columnas se ajustan al contenedor*/
+    justify-content: stretch;
 
     width: 80%;
     margin: 0 auto;
